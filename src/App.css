@@ -1,0 +1,65 @@
+.PowerButton {
+  height: 10vh;
+  width: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.PowerButtonIcon {
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+.PowerButtonIcon:hover {
+  color: black;
+}
+
+.userLogo {
+  background-color: white;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+  margin-right: 95px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.userLogo:hover {
+  background-color: black;
+  color: white;
+}
+
+.form {
+  align-content: center;
+  /* background-color: black;   */
+  /* border: 1px solid black; */
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 250px;
+}
+
+
+.Submitbutton {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.innerbutton {
+  background-color: white;
+  color: black;
+}
+
+.innerbutton:hover {
+  background-color: black;
+  /* transition: red 1s; */
+  color: white;
+}
+
