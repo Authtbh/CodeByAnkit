@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Power } from "lucide-react";
 import "../index.css";
-import img from "../assets/book-a.png";
 
 let redirectFunction = () => {
   console.log("Redirecting to Home Page");
@@ -11,7 +10,11 @@ let redirectFunction = () => {
 const StartButton = () => {
   return (
     <>
-      <a className="homebutton" href="/home"><img src={img} alt="img"></img></a>
+      <div className="PowerButton">
+        <Link to="/Home" onClick={redirectFunction}>
+          <Power size={50} strokeWidth={1.75} className="PowerButtonIcon" />
+        </Link>
+      </div>
     </>
   );
 };
