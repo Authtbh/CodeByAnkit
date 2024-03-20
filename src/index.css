@@ -14,4 +14,10 @@ code {
     monospace;
 }
 
-
+.homebutton{
+margin-top: 17rem;
+display: flex;
+justify-content: center;
+align-items: center;
+size: 50px;
+}
