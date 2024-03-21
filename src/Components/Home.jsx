@@ -1,6 +1,6 @@
 import React from "react";
 import { Search } from "lucide-react";
-import { profilePic } from "../assets/profilePic.png";
+import profilePic from "../assets/profilePic.png";
 
 const Home = () => {
   return (
