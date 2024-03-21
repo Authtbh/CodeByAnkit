@@ -1,5 +1,6 @@
 import React from "react";
 import { Search } from "lucide-react";
+import { profilePic } from "../assets/profilePic.png";
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <div className="header">
         <div className="logo-section">
           <div className="profile-image">
-            <img src="/src/assets/profile-pic.png" alt="logo" />
+            <img src={profilePic} alt="logo" />
           </div>
         </div>
 
