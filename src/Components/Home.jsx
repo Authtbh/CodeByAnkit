@@ -1,7 +1,7 @@
 import React from "react";
 import { Search } from "lucide-react";
 import profilePic from "../assets/profilePic.png";
-import MaintenancePic1 from "../assets/MaintenancePic.jpg";
+import Maintenance from "./Maintenance";
 
 const Home = () => {
   return (
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         </div>
       </div>
-      <img src={MaintenancePic1} alt="Maintenance Image" />
+      <Maintenance/>
     </>
   );
 };
