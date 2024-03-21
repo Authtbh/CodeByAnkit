@@ -1,7 +1,7 @@
 import React from "react";
 import { Search } from "lucide-react";
 import profilePic from "../assets/profilePic.png";
-import MaintenancePic1 from "../assets/MaintenancePic.avif"
+import MaintenancePic1 from "../assets/MaintenancePic.jpg";
 
 const Home = () => {
   return (
