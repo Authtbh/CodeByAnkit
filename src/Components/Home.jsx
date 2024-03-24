@@ -14,13 +14,13 @@ const Home = () => {
 
         <div className="Button-section">
           <form className="search-section">
-            <input
+            <input className="input"
               type="search"
               id="query"
               placeholder="Type here to search.."
               aria-label="Search through site content"
             />
-            <button>
+            <button className="search-button">
               <Search className="search-icon" />
             </button>
           </form>
@@ -32,7 +32,9 @@ const Home = () => {
       </div>
       <Maintenance />
 
-      
+      <div className="footer">
+
+      </div>
     </>
   );
 };
