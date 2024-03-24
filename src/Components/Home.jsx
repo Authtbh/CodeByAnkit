@@ -15,7 +15,7 @@ const Home = () => {
 
         <div className="Button-section">
           <form className="search-section">
-            <input className="input translate-x-[10rem] py-[10rem]"
+            <input className="input "
               type="search"
               id="query"
               placeholder="Type here to search.."
@@ -26,7 +26,7 @@ const Home = () => {
             </button>
           </form>
           <div className="login-signIn">
-            <button className="signUp-button translate-x-[10rem]">Signup</button>
+            <button className="signUp-button">Signup</button>
             <button className="logIn-button">Login</button>
           </div>
         </div>
